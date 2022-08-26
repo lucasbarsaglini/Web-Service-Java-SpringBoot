@@ -15,24 +15,31 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "tb_category")
-public class Category implements Serializable{
+@Table(name = "tb_product")
+public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
+	private String decription;
+	private Double price;
+	private String imgUrl;
 	
 	@Transient
-	private Set<Product> products = new HashSet<>();
+	private Set<Category> categories = new HashSet<>();
 	
-	public Category() {
+	public Product() {
 	}
 
-	public Category(Long id, String name) {
+	public Product(Long id, String name, String decription, Double price, String imgUrl) {
 		super();
 		this.id = id;
 		this.name = name;
+		this.decription = decription;
+		this.price = price;
+		this.imgUrl = imgUrl;
 	}
+
 }
