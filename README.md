@@ -24,8 +24,6 @@ Sistema de microsserviço para produtos, onde temos sua categoria, pagamento, or
 
 - ``Java``
 - ``SpringBoot``
-- ``React``
-- ``TypeScript``
 <br/>
 
 # Pessoas Desenvolvedoras do Projeto
