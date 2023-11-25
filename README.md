@@ -13,8 +13,8 @@
 
 # Descrição do projeto
 
-Sistema de microsserviço para produtos, onde temos sua categoria, pagamento, ordem e CRUD do usuário.  
-<br/><br/>
+  
+Este é um sistema de microsserviços para produtos, abrangendo categorias, processamento de pagamentos, gestão de pedidos e operações básicas de criação, leitura, atualização e exclusão (CRUD) de usuários. Cada microsserviço é responsável por uma função específica, proporcionando modularidade e flexibilidade ao sistema.<br/><br/>
 
 # Funcionalidades e Demonstração da Aplicação
 <img src="https://user-images.githubusercontent.com/100448147/217844370-8e569607-7e98-422b-b779-f86b452411d5.png">
